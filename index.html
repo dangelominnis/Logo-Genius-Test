@@ -1,460 +1,734 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Logo Genius | Graphic & Web Design</title>
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Logo Genius</title>
+    <!-- Google Fonts -->
+    <!-- Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Raleway Dots -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/b1974bca5b.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="header-animation.scss">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
 
-    <!-- Top Strip Note -->
-    <div class="strip">
-        <!-- <a href="#"><i class="fas fa-mobile-alt fa-4x">(206)-293-0297</i></a>
-        <a href="#"><i class="fab fa-instagram fa-4x"></i></a>
-        <a href="#"><i class="fab fa-facebook-f fa-4x"></i></a> -->
-            <h4>Get A Free Logo With The Purchase Of A Website</h4>
-            <!-- <h3><i class="fas fa-money-check-alt fa-4x"></i>Request A Quote</h3> -->
-    </div>
-
-    <!-- Section Header -->
-    <section class="banner">
-      <div class="logo-box">
-        <div class="logo-box-image">
-          <img src="./img/logo_genius_logo.png" alt="logo" />
-        </div>
-      </div>
-      <!-- Navigation -->
-      <div class="navigation">
-        <nav class="navigation__nav">
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a href="index.html" class="navigation__link"><i class="fas fa-atom fa-4x"></i>Home</a>
-            </li>
-            <div class="vl"></div>
-            <li class="navigation__item">
-              <a href="graphic.html" class="navigation__link"><i class="fas fa-pencil-ruler fa-4x"></i>Graphic Design</a>
-            </li>
-            <div class="vl"></div>
-            <li class="navigation__item">
-              <a href="web.html" class="navigation__link"><i class="fas fa-laptop-code fa-4x"></i>Web Design</a>
-            </li>
-            <div class="vl"></div>
-            <li class="navigation__item">
-              <a href="templates.html" class="navigation__link"><i class="fas fa-laptop-medical fa-4x"></i>EHR Development</a>
-            </li>
-            <div class="vl"></div>
-            <li class="navigation__item">
-              <a href="portfolio.html" class="navigation__link"><i class="fas fa-briefcase fa-4x"></i>Portfolio</a>
-            </li>
-            <div class="vl"></div>
-            <li class="navigation__item">
-              <a href="contact.html" class="navigation__link"><i class="fas fa-mobile-alt fa-4x"></i>Contact</a>
-            </li>
-          </ul>
-          <div class="hamburger" id="toggle">
-            <div class="hamburger-bars">
-              <i class="fas fa-bars fa-3x"></i>
-            </div>
-          </div>
-        </nav>
-      </div>      
-    </section>
-    <!-- Navigation Mobile -->
-    <nav class="nav__mobile" id="nav__mobile">
-      <div
-        class="nav__mobile-ul u-padding-top--2 u-padding-bottom--2"
-        id="nav__mobile-ul">
-        <ul>
-          <li class="nav__mobile-ul-li"><a href="index.html">Home</a>
-          </li>
-          <li class="nav__ul-li">
-            <a href="graphic.html">Graphic Design</a>
-          </li>
-          <li class="nav__ul-li">
-            <a href="web.html">Web Design</a>
-          </li>
-          <li class="nav__ul-li">
-            <a href="templates.html">EHR Development</a>
-          </li>
-          <li class="nav__ul-li">
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav__ul-li">
-              <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Header -->
+    <!-- Header Section -->
     <header class="header" id="header">
-      <div class="container-wide">
-        <div class="header__text-box">
-          <!-- <h1>
-            Legacy Pool Designs
-          </h1> -->
-        </div>
-        <!-- <div>
-          <p>
-         
-          </p>
-        </div> -->
-      </div>
-    </header>
-
-    <div class="overview">
         <div class="container">
-            <h2>Graphic Design, Web Design <span>& Marketing</span>
-            </h2>
-            <h4>Helping Businesses Become Geniuses</h4>
-            <div class="underline-1"></div>
-            <p>
-                Logo Genius is a graphic and web design company, located in Seattle, WA. We specialize in logo creation, website creation, brand identity, and marketing services (such as blog posts, social media, emails, etc.) It is our mission to provide graphic materials that help assist companies with all of their branding needs. A logo isn't just a small masterpiece; it's the foundation that your company needs for a strong brand identity.
-            </p>
+            <div class="header-box">
+                <div class="header-text">
+                    <h1>Make your brand genius</h1>
+                    <h4>Use Logo Genius to create your logo, bringing your brand's vision to life.</h4>
+                </div>
+                <div class="header-form">
+                    <form name="header" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="header">
+                        <div class="header-item">
+                            <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                            <input type="submit" value="Let's make a logo!" class="btn-submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="header-image">
+                    <img src="img/fiverr-reviews-01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/logo-genius-logo-new-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="#">Home</a>
+                <a class="nav__link" href="#">Portfolio</a>
+                <a class="nav__link" href="#">Process</a>
+                <a class="nav__link" href="#">Pricing</a>
+                <a class="nav__link" href="#">Services</a>
+                <a class="nav__link" href="#">Contact</a>
+                <a href="#" class="btn-transparent">Login</a>
+                <a class="btn-purple" href="#">Sign Up</a>
+            </nav>
         </div>
     </div>
 
-<!-- Grid -->
-<section class="grid">
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Logos Section -->
+<section class="logos"></section>
+
+<!-- Process Section -->
+<section class="process">
     <div class="container">
-        <div class="underline"></div>
-        <h2>
-            Latest Genius <span>Creations</span>
-        </h2>
-        <div class="grid-container">
-          <div class="grid-item">
-              <source><img src="img/18.jpg" alt="logo image">
-          </div>
-          <div class="grid-item">
-            <source><img src="img/19.jpg" alt="logo image">
+        <h2>How it works</h2>
+        <div class="process-box">
+            <div class="process-card">
+                <img src="img/lg-characters-01.png" alt="">
+                <h3><span>01.</span> Pick Your Package</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, quaerat recusandae. Quibusdam enim obcaecati aliquid officia saepe pariatur, repellat dolores.</p>
+            </div>
+            <div class="process-card">
+                <img src="img/lg-characters-02.png" alt="">
+                <h3><span>02.</span> We Design & Create</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, quaerat recusandae. Quibusdam enim obcaecati aliquid officia saepe pariatur, repellat dolores.</p>
+            </div>
+            <div class="process-card">
+                <img src="img/lg-characters-03.png" alt="">
+                <h3><span>03.</span> We Deliver To You</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, quaerat recusandae. Quibusdam enim obcaecati aliquid officia saepe pariatur, repellat dolores.</p>
+            </div>
         </div>
-        <div class="grid-item">
-            <source><img src="img/20.jpg" alt="logo image">
+        <div class="process-button">
+            <a href="#" class="btn-purple">Get Started</a>
         </div>
-        <div class="grid-item">
-            <source><img src="img/21.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/22.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/23.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/24.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/25.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/26.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/27.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/28.jpg" alt="logo image">
-        </div>
-        <div class="grid-item">
-            <source><img src="img/30.jpg" alt="logo image">
-        </div>
-        </div>
-        <a href="graphic.html" class="btn--one">Buy A Logo</a>
     </div>
 </section>
 
-<!-- Services Cards -->
+<!-- Certifications Section -->
+<section class="certifications">
+    <div class="container">
+        <div class="certifications-box">
+            <div class="certifications-item">
+                <img src="img/logo-genius-logo-new-01.png" alt="">
+            </div>
+            <div class="certifications-item">
+                <img src="img/logo-genius-logo-new-01.png" alt="">
+            </div>
+            <div class="certifications-item">
+                <img src="img/logo-genius-logo-new-01.png" alt="">
+            </div>
+            <div class="certifications-item">
+                <img src="img/logo-genius-logo-new-01.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Packages Section -->
+<section class="packages">
+    <div class="container">
+        <h2>Logo pricing</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum consequatur, dolores perspiciatis cum dolore rem laudantium magni officia? Sapiente deserunt eaque quod adipisci commodi minima, magnam quis corporis molestiae eligendi!</p>
+        <div class="packages-box">
+
+            <div class="packages-card">
+                <div class="packages-header">
+                    <h3>Basic</h3>
+                </div>
+                <div class="packages-price">
+                    <h4>$100</h4>
+                </div>
+                <div class="packages-text">
+                    <div class="packages-pro">
+                        <h6><span>1</span> Logo (JPG/PNG)</h6>
+                        <h6><span>1</span> Revision</h6>
+                    </div>
+                    <div class="packages-con">
+                        <h6>3D Mockup</h6>
+                        <h6>All Source Files</h6>
+                        <h6>Social Media Kit</h6>
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="packages-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="packages-card">
+                <div class="packages-header">
+                    <h3>Standard</h3>
+                </div>
+                <div class="packages-price">
+                    <h4>$200</h4>
+                </div>
+                <div class="packages-text">
+                    <div class="packages-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>3</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                    </div>
+                    <div class="packages-con">
+                        <h6>Social Media Kit</h6>
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="packages-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="packages-card">
+                <div class="packages-header">
+                    <h3>Premium</h3>
+                </div>
+                <div class="packages-price">
+                    <h4>$400</h4>
+                </div>
+                <div class="packages-text">
+                    <div class="packages-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>3</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                        <h6><span>Social</span> Media Kit</h6>
+                    </div>
+                    <div class="packages-con">
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="packages-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="packages-card">
+                <div class="packages-header">
+                    <h3>Unlimited</h3>
+                </div>
+                <div class="packages-price">
+                    <h4>$600</h4>
+                </div>
+                <div class="packages-text">
+                    <div class="packages-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>Unlimited</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                        <h6><span>Social</span> Media Kit</h6>
+                        <h6><span>Stationary</span> Letterhead</h6>
+                        <h6><span>Business</span> Cards</h6>
+                    </div>
+                    <div class="packages-con">
+
+                    </div>
+                </div>
+                <div class="packages-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Logos 2 Section -->
+<section class="logos-2"></section>
+
+<!-- Services Section -->
 <section class="services">
     <div class="container">
-        <div class="underline"></div>
-      <h2>
-        Featured <span>Services</span>
-      </h2>
-      <div class="services__benefits u-margin-top-6">
-        <div class="services__cards">
-          <div class="services__card u-text-align-center">
-            <div class="services__card-img">
-              <img src="./img/genius-package-06.jpg" alt="pool image 1" />
+        <h2>Digital services</h2>
+        <div class="services-box">
+            <div class="services-card">
+                <img src="img/Services SVG-03.png" alt="">
+                <h3>01. Logo Design</h3>
+                <div class="services-info">
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
             </div>
-            <div class="services__card-textbox u-text-align-center">
-              <h3 class="tertiary-heading u-margin-bottom-2">Genius Premium - $74.99</h3>
-              <ul>
-                  <li>◦ 3 Modern Logos</li>
-                  <li>◦ 3 Revisions</li>
-                  <li>◦ 3D Mockup</li>
-                  <li>◦ All Source Files (JPG, PNG, EPS, AI, SVG, PDF, PSD)</li>
-                  <li>◦ Social Media Kit</li>
-                  <li>◦ Stationary Letterhead</li>
-                  <li>◦ Business Cards</li>
-              </ul>
-              <a href="" class="btn btn--secondary">Go Premium</a>
+            <div class="services-card">
+                <img src="img/Services SVG-04.png" alt="">
+                <h3>02. Web Design</h3>
+                <div class="services-info">
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="services__card u-text-align-center">
-            <div class="services__card-img">
-              <img src="./img/genius-package-03.jpg" alt="pool image 2" />
+            <div class="services-card">
+                <img src="img/Services SVG-02.png" alt="">
+                <h3>03. Brand Identity</h3>
+                <div class="services-info">
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
             </div>
-            <div class="services__card-textbox u-text-align-center">
-              <h3 class="tertiary-heading u-margin-bottom-2">Genius Custom Website</h3>
-              <ul>
-                <li>◦ Landing Pages</li>
-                <li>◦ 3 Page Websites</li>
-                <li>◦ 5 Page Websites</li>
-                <li>◦ Custom Websites</li>
-                <li>◦ Favicons</li>
-                <li>◦ 24/7 Genius Maintence & Hosting</li>
-                <li>◦ Personalized HTML & CSS</li>
-            </ul>
-              <a href="" class="btn btn--secondary">Go Website</a>
+            <div class="services-card">
+                <img src="img/Services SVG-01.png" alt="">
+                <h3>04. Digital Advertising</h3>
+                <div class="services-info">
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="services-item">
+                        <i class="material-icons">check_circle_outline</i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="services__card u-text-align-center">
-            <div class="services__card-img">
-              <img src="./img/genius-package-01.jpg" alt="pool image 3" />
-            </div>
-            <div class="services__card-textbox u-text-align-center">
-              <h3 class="tertiary-heading u-margin-bottom-2">Genius Custom Quote</h3>
-              <ul>
-                <li>◦ Need something more specific?</li>
-                <li>◦ Marketing</li>
-                <li>◦ Social Media Management</li>
-                <li>◦ Animations</li>
-                <li>◦ Flyers</li>
-                <li>◦ Website Banners</li>
-                <li>◦ Come with anything!</li>
-            </ul>
-              <a href="" class="btn btn--secondary">Go Quote</a>
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="services-button">
+            <a href="#" class="btn-purple">View Packages</a>
+        </div>
     </div>
-    </section>
-
-<!-- Steps -->
-<div class="step">
-    <div class="container">
-        <div class="underline"></div>
-        <h2>How It Works: <span>Step By Step</span></h2>
-        <div class="step-container">
-            <div class="step-item">
-              <source><img src="img/step-01.png" alt="account">
-                <h4>Create your account and start browsing</h4>
-                <p>Create your account and browse our services to find what's best for you</p>
-          </div>
-          <div class="step-item">
-              <source><img src="img/step-02.png" alt="logo service">
-                <h4>Purchase a logo design or a custom website</h4>
-                <p>Pick a logo or website service, fill out business details, and place payment. A Genius team member will contact you immediately.</p>
-          </div>
-          <div class="step-item">
-              <source><img src="img/step-03.png" alt="email">
-                <h4>Wait for final product in your email inbox</h4>
-                <p>Upon completion, the Logo Genius team will email your deliverables to your personal email.</p>
-          </div>
-          </div>
-          <a href="graphic.html" class="btn--one">Get Started</a>
-    </div>
-</div>
-
-    <!-- Testimonials -->
-   <section class="section-testimonials" id="Testimonials">
-    <div class="container">
-        <div class="underline"></div>
-        <h2>
-            Testimonials
-        </h2>
-      <div class="testimonials">
-        <div class="testimonials__item">
-          <i class="fas fa-quote-left fa-3x"></i>
-          <div class="testimonials__text">
-            <p>
-              From the moment we met with our salesman to swimming in
-              our new pool, it was a pleasure. Everyone we came in contact
-              with was friendly and helpful. This made us feel comfortable
-              and my husband and I knew we had made the right choice. Thank you!
-            </p>
-          </div>
-          <div class="testimonials__image">
-            <h4 class="testimonials__name u-heading-lin-gradient-3">Hailey P.</h4>
-          </div>       
-        </div>
-      <div class="testimonials">
-        <div class="testimonials__item">
-          <i class="fas fa-quote-left fa-3x"></i>
-          <div class="testimonials__text">
-            <p>
-              We love our pool. When my friends and family come over their
-              reaction is “Wow”! I would definitely recommend them. Legacy
-              Pool Designs has a great computer program that lets you see
-              your pool. It’s state of the art and made it an easy choice.
-          </p>
-          </div>
-          <div class="testimonials__image">
-            <h4 class="testimonials__name u-heading-lin-gradient-3">Paul F.</h4>
-          </div>
-        </div>
-      </div>
-     </div>
-    </div>
-  </section>
-
-
-<!-- Contact section -->
-<section id="Contact" class="section-contact">
-  <div class="container">
-      <div class="underline"></div>
-    <h2>
-      Request A <span>Quote</span>
-    </h2>
-    <div class="contact__cards">
-      <div class="contact__cards-card">
-        <i class="fas fa-phone-alt fa-4x"></i>
-        <!-- <div class="contact__cards-card-text"> -->
-        <h3>
-          Phone
-        </h3>
-        <p>
-          (206)-293-0297
-        </p>
-        <!-- </div> -->
-      </div>
-      <div class="contact__cards-card">
-        <i class="fas fa-envelope fa-4x"></i>
-        <!-- <div class="contact__cards-card-text"> -->
-        <h3>
-          Email
-        </h3>
-        <p>
-          geniuses@logo-genius.com
-        </p>
-        <!-- </div> -->
-      </div>
-      <div class="contact__cards-card">
-        <i class="fas fa-clock fa-4x"></i>
-        <!-- <div class="contact__cards-card-text"> -->
-        <h3>
-          Hours
-        </h3>
-        <p>
-          8:00am - 5:00pm
-        </p>
-        <!-- </div> -->
-      </div>
-    </div>
-    <form name='contact' method='POST' data-netlify-recaptcha='true'><input type='hidden' name='form-name' value='contact' />
-      <div class="contact__form-grp">
-        <div class="contact__form-grp-item">
-          <label for="fullName">NAME</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Full Name"
-          />
-        </div>
-        <div class="contact__form-grp-item">
-          <label for="email">EMAIL</label>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Email Address"
-          />
-        </div>
-        <div class="contact__form-grp-msg">
-          <label for="message">MESSAGE</label>
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Enter Message"
-          ></textarea>
-        </div>
-        <!-- <div class='recap'><script src='../www.google.com/recaptcha/api.js'></script>
-<div class='g-recaptcha' data-sitekey='6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9'></div>
-<noscript>
-<div>
-<div style="width: 302px; height: 422px; position: relative;">
-<div style="width: 302px; height: 422px; position: absolute;">
-<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9" frameborder="0" scrolling="no"
-style="width: 302px; height:422px; border-style: none;">
-</iframe>
-</div>
-</div>
-<div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
-<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
-style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;" >
-</textarea>
-</div>
-</div>
-</noscript>
-</div> -->
-        <input
-          type="submit"
-          value="SEND MESSAGE"
-        />
-      </div>
-    </form>
-  </div>
 </section>
-</main>
 
-    <!-- Footer -->
-    <section class="footer__main">
-      <footer>
-        <div class="container">
-            <div class="underline"></div>
-          <h2>Follow Us On</h2>
-          <div class="footer__main-socials">
-            <a
-              href="#"
-              target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              href="#"
-              target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              href="#"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </div>
-          <div class="footer__main-copyrt">
-            <p>
-              Copyright &copy; 2020. All Rights Reserved by Legacy Pool Designs.
-            </p>
-            <a
-              href="#"
-              target="_blank"
-              class="terms-conditions"
-              >Terms & Conditions</a
-            >
-            <a
-              href="https://www.thegeniussolutions.com"
-              target="_blank"
-              class="terms-conditions"
-              >Developed By Genius Solutions</a
-            >
-            <!-- <a href="#">Site Map</a> -->
-          </div>
+<!-- Branding Section -->
+<section class="branding">
+    <div class="container">
+        <h2>Your full branding kit</h2>
+        <h4>Use Logo Genius to create your logo, bringing your brand's vision to life.</h4>
+        <div class="branding-box">
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-05.jpg" alt="">
+                <h3>Logos</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-03.jpg" alt="">
+                <h3>Business Cards</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-06.jpg" alt="">
+                <h3>Letterheads</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-02.jpg" alt="">
+                <h3>Social Media Kit</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-08.jpg" alt="">
+                <h3>Posters</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-07.jpg" alt="">
+                <h3>Flyers</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-04.jpg" alt="">
+                <h3>Brochures</h3>
+            </div>
+            <div class="branding-item">
+                <img src="img/Mingo Branding Services Logo Genius-01.jpg" alt="">
+                <h3>Websites</h3>
+            </div>
         </div>
-      </footer>
-    </section>
-<script src="./js/main.js"></script>
-  </body>
-  </html>
+    </div>
+</section>
+
+<!-- Reviews Section -->
+<section class="reviews">
+    <div class="container">
+        <div class="reviews-box">
+            <div class="reviews-textbox">
+                <div class="reviews-card">
+                    <img src="img/portrait1.jpg" alt="">
+                    <h3>Absolutely Stunning</h3>
+                    <h4>Anthony, GRAY Marketing</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed earum."</p>
+                </div>
+                <div class="reviews-card">
+                    <img src="img/portrait2.jpg" alt="">
+                    <h3>Absolutely Stunning</h3>
+                    <h4>Jenny, Way Of Designs</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed earum."</p>
+                </div>
+            </div>
+            <div class="reviews-contact">
+                <div class="reviews-text">
+                    <h1>Contact us to start a project!</h1>
+                    <h4>Reach out to us about your branding needs and let's get started on a project!</h4>
+                </div>
+                <div class="reviews-form">
+                    <form name="reviews" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="reviews">
+                        <div class="reviews-item">
+                            <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                            <input type="submit" value="Let's make a logo!" class="btn-submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="reviews-image">
+                    <img src="img/fiverr-reviews-01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Web Section -->
+<section class="web">
+    <div class="container">
+        <div class="web-box">
+            <h4>Website Design</h4>
+            <h2>Need a website created for you? Click the button below to get started.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloribus repellat, architecto deserunt quis nihil ducimus perferendis eligendi! Recusandae, ab!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloribus repellat, architecto deserunt.</p>
+            <div class="web-button">
+                <a href="#" class="btn-purple">Let's make a website!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Client Section -->
+<section class="client">
+    <div class="container">
+        <h2>Take a look at our client's sites</h2>
+        <h4>Use Logo Genius to create your website, bringing your brand's vision to life.</h4>
+        <div class="client-box">
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/roammer-logo-01.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/GRAY-logo-01.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/WOD-logo-01.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/epiphany-logo.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/tune-up-pup-logo-05.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/allin-logo.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/legacy_pool_logo.png" alt="">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#">
+                    <img src="img/logo-genius-logo-new-01.png" alt="">
+                </a>=
+            </div>
+        </div>
+        <div class="client-button">
+            <a href="#" class="btn-purple">Let's make a website!</a>
+        </div>
+    </div>
+</section>
+
+<!-- Custom Section -->
+<section class="custom">
+    <div class="container">
+        <h2>Website Services</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum consequatur, dolores perspiciatis cum dolore rem laudantium magni officia? Sapiente deserunt eaque quod adipisci commodi minima, magnam quis corporis molestiae eligendi!</p>
+        <div class="custom-box">
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Basic Hosting</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>$50</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>1</span> Logo (JPG/PNG)</h6>
+                        <h6><span>1</span> Revision</h6>
+                    </div>
+                    <div class="custom-con">
+                        <h6>3D Mockup</h6>
+                        <h6>All Source Files</h6>
+                        <h6>Social Media Kit</h6>
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Standard Hosting</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>$75</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>3</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                    </div>
+                    <div class="custom-con">
+                        <h6>Social Media Kit</h6>
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Premium Hosting</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>$100</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>3</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                        <h6><span>Social</span> Media Kit</h6>
+                    </div>
+                    <div class="custom-con">
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Custom Quote</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>TBD</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>Web</span> Development</h6>
+                        <h6><span>Back-End</span> Apps</h6>
+                        <h6><span>Brochure</span> Designs</h6>
+                        <h6><span>Flyer</span> Designs</h6>
+                        <h6><span>Branding</span> Kits</h6>
+                        <h6><span>Social</span> MMA</h6>
+                        <h6><span>And</span> More!</h6>
+                    </div>
+                    <div class="custom-con">
+
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Reviews Section -->
+<section class="reviews">
+    <div class="container">
+        <div class="reviews-box">
+            <div class="reviews-textbox">
+                <div class="reviews-card">
+                    <img src="img/portrait1.jpg" alt="">
+                    <h3>Absolutely Stunning</h3>
+                    <h4>Anthony, GRAY Marketing</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed earum."</p>
+                </div>
+                <div class="reviews-card">
+                    <img src="img/portrait2.jpg" alt="">
+                    <h3>Absolutely Stunning</h3>
+                    <h4>Jenny, Way Of Designs</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed earum."</p>
+                </div>
+            </div>
+            <div class="reviews-contact">
+                <div class="reviews-text">
+                    <h1>Contact us to start a project!</h1>
+                    <h4>Reach out to us about your branding needs and let's get started on a project!</h4>
+                </div>
+                <div class="reviews-form">
+                    <form name="reviews" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="reviews">
+                        <div class="reviews-item">
+                            <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                            <input type="submit" value="Let's make a logo!" class="btn-submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="reviews-image">
+                    <img src="img/fiverr-reviews-01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/logo-genius-logo-new-02.png" alt="image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p>Copyright © 2021 Auto Detail - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3>Site Map</h3>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>Packages</li></a>
+                    <a href="#"><li>Work</li></a>
+                    <a href="#"><li>Logo Genius</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3>Social Media</h3>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3>Contact Info</h3>
+                <a href="tel:#"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:#"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------- MODALS -------------------- -->
+<!-- Boiler Plate -->
+<!-- <div id="target-content">
+    <a href="#" class="close"></a>
+    <div id="target-inner">
+      <h2>Modal Heading</h2>
+      <p>Modal Content</p>
+    </div>
+  </div> -->
+
+<!-- Services Details Modal -->
+<div id="services-details-content">
+    <a href="#services" class="close"></a>
+    <div id="services-details-inner">
+      
+        <!-- services Details Section -->
+        <section class="services-details padding-top-8 padding-bottom-8">
+            <div class="container">
+                <h4 class="tertiary-heading-primary margin-bottom-1">Full Package Details</h4>
+                <h2 class="primary-heading-primary margin-bottom-4">Puppy Packages</h2>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 1 | $399</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    2 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Traveling charge for over 35 miles Renton
+                </p>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 2 | $999</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    4 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($600) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    Traveling charge for over 50 miles Renton
+                </p>
+
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 3 | $2500</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    7 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($1200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    36 hour training and boarding ($1200) <br>
+                    E-collar and e-collar training ($400) <br>
+                    15% discount on all future trainings <br>
+                    No traveling charge for the greater Seattle area 
+                </p>
+        
+            </div>
+        </section>
+
+    </div>
+</div>
+<!-- Services Details Modal -->
+
+<!-- --------------------- MODALS -------------------- -->
+</body>
+</html>
