@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Logo Genius</title>
+    <!-- Google Fonts -->
+    <!-- Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Raleway Dots -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-text">
+                    <h1>Let's design your website</h1>
+                    <h4>Use Logo Genius to create your website, bringing your brand's vision to life.</h4>
+                </div>
+                <div class="header-form">
+                    <form name="header" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="header">
+                        <div class="header-item">
+                            <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                            <input type="submit" value="Let's make a website!" class="btn-submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="header-image">
+                    <img src="img/fiverr-reviews-01.png" alt="Fiverr Reviews logogenius5">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/logo-genius-logo-new-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="#client">Clients</a>
+                <a class="nav__link" href="#custom">Hosting</a>
+                <a class="nav__link" href="#custom">Custom Pricing</a>
+                <a class="nav__link" href="#contact">Contact</a>
+                <a href="#" class="btn-transparent">Login</a>
+                <a class="btn-purple" href="#">Sign Up</a>
+                <a class="btn-black" href="index.html">Graphic Design &#8594;</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Client Section -->
+<section class="client" id="client">
+    <div class="container">
+        <h2>Take a look at our client's sites</h2>
+        <h4>Look at our personalized websites we created for our genius clients.</h4>
+        <div class="client-box">
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/roammer-logo-01.png" alt="Tent Bed & Breakfast Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/GRAY-logo-01.png" alt="Gray Marketing Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="https://www.wayofdesigns.com/" target="_blank">
+                    <img src="img/WOD-logo-01.png" alt="Way Of Designs Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/epiphany-logo.png" alt="Epiphany Dawning Notary Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/tune-up-pup-logo-05.png" alt="Tune-Up Pup Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/allin-logo.png" alt="All In Notary Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/legacy_pool_logo.png" alt="Legacy Pool Designs Website">
+                </a>
+            </div>
+            <div class="client-item">
+                <a href="#" target="_blank">
+                    <img src="img/logo-genius-logo-new-01.png" alt="Logo Genius Website">
+                </a>=
+            </div>
+        </div>
+        <div class="client-button">
+            <a href="#contact" class="btn-purple">Let's make a website!</a>
+        </div>
+    </div>
+</section>
+
+<!-- Custom Section -->
+<section class="custom" id="custom">
+    <div class="container">
+        <h2>Website Services</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum consequatur, dolores perspiciatis cum dolore rem laudantium magni officia? Sapiente deserunt eaque quod adipisci commodi minima, magnam quis corporis molestiae eligendi!</p>
+        <div class="custom-box">
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Basic Hosting</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>$50</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>1</span> Logo (JPG/PNG)</h6>
+                        <h6><span>1</span> Revision</h6>
+                    </div>
+                    <div class="custom-con">
+                        <h6>3D Mockup</h6>
+                        <h6>All Source Files</h6>
+                        <h6>Social Media Kit</h6>
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Standard Hosting</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>$75</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>3</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                    </div>
+                    <div class="custom-con">
+                        <h6>Social Media Kit</h6>
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Premium Hosting</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>$100</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>3</span> Logos</h6>
+                        <h6><span>3</span> Revisions</h6>
+                        <h6><span>3D</span> Mockup</h6>
+                        <h6><span>All</span> Source Files</h6>
+                        <h6><span>Social</span> Media Kit</h6>
+                    </div>
+                    <div class="custom-con">
+                        <h6>Stationary Letterhead</h6>
+                        <h6>Business Cards</h6>
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <div class="custom-header">
+                    <h3>Custom Quote</h3>
+                </div>
+                <div class="custom-price">
+                    <h4>TBD</h4>
+                </div>
+                <div class="custom-text">
+                    <div class="custom-pro">
+                        <h6><span>Web</span> Development</h6>
+                        <h6><span>Back-End</span> Apps</h6>
+                        <h6><span>Brochure</span> Designs</h6>
+                        <h6><span>Flyer</span> Designs</h6>
+                        <h6><span>Branding</span> Kits</h6>
+                        <h6><span>Social</span> MMA</h6>
+                        <h6><span>And</span> More!</h6>
+                    </div>
+                    <div class="custom-con">
+
+                    </div>
+                </div>
+                <div class="custom-button">
+                    <a href="#" class="btn-purple">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Reviews Section -->
+<section class="reviews" id="contact">
+    <div class="container">
+        <div class="reviews-box">
+            <div class="reviews-textbox">
+                <div class="reviews-card">
+                    <img src="img/portrait1.jpg" alt="Portfolio Image">
+                    <h3>Absolutely Stunning</h3>
+                    <h4>Anthony, GRAY Marketing</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed earum."</p>
+                </div>
+                <div class="reviews-card">
+                    <img src="img/portrait2.jpg" alt="Portfolio Image">
+                    <h3>Absolutely Stunning</h3>
+                    <h4>Jenny, Way Of Designs</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed earum."</p>
+                </div>
+            </div>
+            <div class="reviews-contact">
+                <div class="reviews-text">
+                    <h1>Contact us to start a project!</h1>
+                    <h4>Reach out to us about your branding needs and let's get started on a project!</h4>
+                </div>
+                <div class="reviews-form">
+                    <form name="reviews" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="reviews">
+                        <div class="reviews-item">
+                            <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                            <input type="submit" value="Let's make a logo!" class="btn-submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="reviews-image">
+                    <img src="img/fiverr-reviews-01.png" alt="Fiverr Reviews logogenius5">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/logo-genius-logo-new-02.png" alt="logo image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p>Copyright © 2022 Logo Genius - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3>Site Map</h3>
+                <ul>
+                    <a href="#header"><li>Home</li></a>
+                    <a href="#custom"><li>Hosting</li></a>
+                    <a href="#custom"><li>Custom Pricing</li></a>
+                    <a href="portfolio.html" target="_blank"><li>Portfolio</li></a>
+                    <a href="index.html"><li>Graphic Design</li></a>
+                    <a href="info.html" target="_blank"><li>Info</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3>Social Media</h3>
+                <a href="https://www.instagram.com/logogeniuses/" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="https://www.facebook.com/Logogeniuses/" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="https://www.linkedin.com/in/logo-genius-9b87b0201/" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3>Contact Info</h3>
+                <a href="tel:206-293-0297"><li>(206) 293 - 0297</li></a>
+                <a href="mailto:geniuses@logo-genius.com"><li>geniuses@logo-genius.com</li></a>
+                <a href="https://logo-genius.com/" target="_blank"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

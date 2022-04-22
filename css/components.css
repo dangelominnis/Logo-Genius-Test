@@ -38,3 +38,18 @@
   background: var(--color-purple);
   color: var(--color-white);
 }
+
+.btn-black {
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.btn-black:hover {
+  color: var(--color-purple);
+}
