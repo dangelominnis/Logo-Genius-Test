@@ -521,8 +521,8 @@ body {
 
 /* Services Section */
 .services {
-    height: 100vh;
-    padding: 0 4rem;
+    background-color: var(--color-light-grey);
+    padding: 12rem 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -797,11 +797,13 @@ body {
 
 .fiverr-item {
     border-radius: 8px;
+    /* border: 2px solid white; */
     border: 2px solid #1dbf73;
     margin: 4rem 4rem 4rem 4rem;
 }
 
 .fiverr-item img {
+    border-radius: 8px;
     width: 500px;
     height: auto;
 }
@@ -1304,17 +1306,18 @@ body {
 .footer {
     padding: 6rem 0;
     background-color: var(--color-purple);
-    display: flex;
-    align-items: center;
-    padding-top: var(--bar-height);
+    /* display: flex; */
+    /* align-items: center; */
+    /* padding-top: var(--bar-height);
     box-sizing: border-box;
     background-size: cover;
     z-index: 4;
-    position: relative;
+    position: relative; */
 }
 
 .footer-box {
     display: flex;
+    align-items: space-between;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -1573,17 +1576,36 @@ body {
         margin-bottom: 6rem;
     }
 
+    /* Pricing Section */
+
+    .pricing-card {
+        margin-bottom: 6rem;
+    }
+
+    .pricing-card:nth-child(5) {
+        margin-bottom: 0rem;
+    }
+
+    .pricing-card:nth-child(4) {
+        margin-bottom: 0rem;
+    }
+
+    /* Fiverr Section */
+    .fiverr-item:nth-child(2) {
+        margin: 0rem 4rem 0rem 4rem;
+    }
+
     /* Branding Section */
     .branding {
         padding: 12rem 4rem 0rem 4rem;
     }
 
     .branding-item:nth-child(7) {
-        margin-bottom: -6rem;
+        margin-bottom: 4rem;
     }
 
     .branding-item:nth-child(8) {
-        margin-bottom: -6rem;
+        margin-bottom: 4rem;
     }
     
     
@@ -1682,7 +1704,25 @@ body {
 
     /* Services Section */
     .services {
-        height: 105vh;
+        height: 130vh;
+    }
+
+    /* Pricing Section */
+    .pricing {
+        padding: 10rem 4rem;
+    }
+
+    .pricing-card {
+        margin-bottom: 6rem;
+    }
+
+    .pricing-card:nth-child(5) {
+        margin-bottom: 0rem;
+    }
+
+    /* Fiverr Section */
+    .fiverr-item:nth-child(2) {
+        margin: 0rem 4rem 0rem 4rem;
     }
 
     /* Branding Section */
@@ -1695,11 +1735,11 @@ body {
     }
 
     .branding-item:nth-child(7) {
-        margin-bottom: -6rem;
+        margin-bottom: 4rem;
     }
 
     .branding-item:nth-child(8) {
-        margin-bottom: -6rem;
+        margin-bottom: 4rem;
     }
 
     .branding h4 {
@@ -1918,7 +1958,7 @@ body {
 
     /* Branding Section */
     .branding {
-        padding: 10rem 4rem 0rem 4rem;
+        padding: 10rem 4rem 8rem 4rem;
     }
 
     .branding h2 {
@@ -1934,8 +1974,30 @@ body {
         height: auto;
     }
 
-    .branding-item:nth-child(8) {
-        margin-bottom: -4rem;
+    .branding-item:nth-child(7) {
+        margin-bottom: 0rem;
+    }
+
+    /* Pricing Section */
+    /* .pricing {
+        padding: 12rem -4rem;
+    } */
+
+    .pricing-card {
+        margin-bottom: 4rem;
+    }
+
+    .pricing-card:nth-child(5) {
+        margin-bottom: 0rem;
+    }
+
+    /* Fiverr Section */
+    .fiverr-item img {
+        width: 300px;
+    }
+
+    .fiverr-item:nth-child(2) {
+        margin: 0rem 4rem 0rem 4rem;
     }
 
     /* Web Section */
